@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
-  <test name="Test">
+  <test name="SetupTest">
     <classes>
-      <class name="com.tests.PC1_Setup.java"/>
+      <class name="com.example.tests.PC1_Setup"/>
     </classes>
   </test> <!-- Test -->
   
-   <test name="Test">
+  <test name="MouseActionsTest">
     <classes>
-      <class name="com.tests.PC2_MouseActions.java"/>
+      <class name="com.example.tests.PC2_MouseActions"/>
     </classes>
   </test> <!-- Test -->
-<test name="Test">
+  
+  <test name="ContextMenuTest">
     <classes>
-      <class name="com.tests.PC3_ContextMenu.java"/>
+      <class name="com.example.tests.PC3_ContextMenuTest"/>
     </classes>
   </test> <!-- Test -->
 
