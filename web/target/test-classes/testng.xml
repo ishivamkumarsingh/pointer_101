@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.tests.PC1_Setup.java"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test">
+    <classes>
+      <class name="com.tests.PC2_MouseActions.java"/>
+    </classes>
+  </test> <!-- Test -->
+<test name="Test">
+    <classes>
+      <class name="com.tests.PC3_ContextMenu.java"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
