@@ -14,7 +14,7 @@ public class PC1_Setup {
     
     @BeforeTest
     public void setup() {
-        
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
